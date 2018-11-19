@@ -1,4 +1,4 @@
-window.onload = init;
+﻿window.onload = init;
 var GAME_WIDTH = 1200;
 var GAME_HEIGHT = 500;
 var isRunning = false;
@@ -7,10 +7,10 @@ var requestAnimFrame = window.requestAnimationFrame ||
 								window.mozRequestAnimationFrame ||
 								window.oRequestAnimationFrame ||
 								window.msRequestAnimationFrame;
-var frames_per_seconds = 400;
+var frames_per_seconds = 200;
 var elapsedSec =  1.0 / frames_per_seconds;
 // для разработчика
-var isDebugMode = false; //включает режим дебагинга (отображает коллайдеры)
+var isDebugMode = true; //включает режим дебагинга (отображает коллайдеры)
 var isBombCanDetonated = true; //выключает взрыв мин.
 
 function init() {

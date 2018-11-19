@@ -23,6 +23,7 @@ function World(width, height) {
 		this.background.draw(canvas);
 		this.player.draw(canvas);
 		this.mineController.draw(canvas);
+		//this.draw("Score");
 	}
 
 	this.reset = function() {
